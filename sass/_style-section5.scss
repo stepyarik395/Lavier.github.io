@@ -1,0 +1,44 @@
+.sertificat-block img{
+  width:80px;
+  height:80px;
+}
+.footer__payment-block img{
+  width:50px;
+  height: 30px;
+}
+footer{
+  padding-top:1.5rem;
+  color:#fff;
+  background-color: #222222;
+  padding-bottom: 1.5rem;
+}
+.footer-contacts{
+  font-size: 1.3rem;
+  a{
+    font-weight: 700;
+    color:#fff;
+  }
+}
+.social-block{
+  font-size: 1.3rem;
+}
+.footer__text{
+  padding-top:3rem;
+  padding-bottom:2rem;
+  font-size: 1.2rem;
+}
+.privacy-policy-text{
+  text-decoration: underline;
+}
+.sertificat-block{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__payment-block{
+  padding-top:1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__payment-text{
+  font-size: 1.3rem;
+}

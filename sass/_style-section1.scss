@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'Open Sans', sans-serif;
+}
+html{
+  font-size:10px;
+}
+.section1{
+  background: url("../img/1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.header-container__logo{
+  width:120px;
+  height:65px;
+}
+.header-contacts{
+  font-weight:400;
+  font-size:1.6rem;
+}
+.date-work{
+  letter-spacing:1px;
+}
+.section1__title-name{
+  color:#e17977;
+  padding-top:10.5rem;
+  text-align:center;
+  font-size:3.4rem;
+  font-weight:600;
+}
+.section1__text{
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom:0;
+  padding-top:5rem;
+  font-weight:400;
+  font-size:1.4rem;
+}
+.mob-button{
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 4px;
+  color:#fff;
+  background-color: #e17976;
+  width:190px;
+  height: 45px;
+  display: none;
+}

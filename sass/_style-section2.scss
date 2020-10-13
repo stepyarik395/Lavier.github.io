@@ -1,0 +1,136 @@
+.wrapper__img__card{
+  position:relative;
+    span{
+      display: block;
+    }
+}
+.card-item{
+  h3{
+    font-weight: 600;
+    padding-left:1rem;
+    padding-top:3.5rem;
+  }
+}
+.section2{
+  background-color: #fef6f6;
+  padding-top:4.5rem;
+  padding-bottom:2.5rem;
+}
+.card-item{
+  margin-top:4rem;
+  border:1px solid #eeeeee;
+}
+.price{
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  border:3px solid #e17976;
+  font-size:1.6rem;
+  font-weight:700;
+}
+.cancel-price{
+  text-align: center;
+  padding-top:0.4rem;
+  text-decoration: line-through;
+  font-size:1.2rem;
+  font-weight:400;
+}
+.price-block{
+  position: absolute;
+  top:2rem;
+  right:2rem;
+}
+.wrapper__img__card img{
+  width:100%;
+  max-width:576px;
+}
+.card__description{
+  margin-bottom:0;
+  padding-bottom: 4rem;
+  padding-right:2rem;
+  padding-top:3.5rem;
+  padding-left:1rem;
+  font-size:1.3rem;
+  font-weight:400;
+}
+.align-center_card-item{
+  display: flex;
+  justify-content: center;
+}
+.card__button{
+  font-weight: 700;
+  text-transform: uppercase;
+  border:none;
+  border-radius:5px;
+  cursor: pointer;
+  font-weight:400;
+  width:190px;
+  height:50px;
+  background-color: #e17976;
+  color:#fff;
+  font-size:1.6rem;
+  margin-bottom: 4rem;
+  &:focus{
+    outline: none;
+  }
+  &:hover{
+    color:#e17976;
+    background-color: #fff;
+    border:2px solid #e17976;
+    transition: all 0.5s;
+  }
+}
+.modal__button{
+  font-weight: 700;
+  text-transform: uppercase;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight:400;
+  width:190px;
+  height:50px;
+  background-color: #e17976;
+  color:#fff;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  &:focus{
+    outline: none;
+  }
+  &:hover{
+    color:#e17976;
+    background-color: #fff;
+    border:2px solid #e17976;
+    transition: all 0.5s;
+  }
+}
+.popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.popup {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	padding: 20px;
+	width: 360px;
+	margin-left: -200px;	
+	background: #fff;
+	border: 1px solid orange;
+	border-radius: 4px; 
+	z-index: 99999;
+	opacity: 1;	
+}
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}

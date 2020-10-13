@@ -1,0 +1,155 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .header-contacts{
+    font-size: 1.1rem;
+  }
+  .header-container{
+    display: none;
+  }
+  .section1__title-name{
+    padding-top:8rem;
+  }
+  .section1__text{
+    padding-top: 4rem;
+  }
+  .mob-button{
+    display: block;
+  }
+  .section1{
+    height: auto;
+  }
+  .card__button{
+    width:145px;
+  }
+  .modal__button{
+    width:145px;
+  }
+  .section3{
+    background: unset;
+  }
+  .section2__title{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .like-block{
+    top:25px;
+    right: -8px;
+  }
+  .post__avatar{
+    width:30px;
+    height: 30px;
+  }
+  .bcg_coment-container{
+    width:90%;
+    margin-left: 1rem;
+     p{
+      font-size: 1rem;
+     }
+  }
+  .sertificat-block{
+    img{
+      width:50px;
+      height:50px;
+    }
+  }
+  .section1_mob-align{
+    display: flex;
+    justify-content: center;
+  }
+  .section4__title{
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .section3-wrapper{
+    padding-bottom: 2rem;
+  }
+  .section4__second-title{
+    display: block;
+    text-align: center;
+  }
+  .section4__text{
+    padding-top:2rem;
+  }
+  .form{
+    padding-top:2rem;
+  }
+  .textown{
+    padding-bottom: 3rem;
+  }
+  .mobile__align{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-contacts{
+    margin-top:2rem;
+  }
+  .footer__payment-text{
+    padding-top:2rem;
+    display:block;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .section3{
+    background: unset;
+  }
+  .section1__text{
+    padding-top:2rem;
+    padding-bottom:2rem;
+  }
+  .section1{
+    height: auto;
+  }
+  .section2{
+    padding-top:2rem;
+  }
+  .card-item{
+    margin-top:2rem;
+  }
+  .section4__title{
+    padding-top:2rem;
+    text-align: center;
+  }
+  .like-block{
+    top:20px;
+    right:10px;
+  }
+  .inp{
+    width:100%;
+  }
+  .footer__payment-block{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer__payment-text{
+    padding-top:2rem;
+    display:block;
+    text-align: center;
+  }
+  .mobile__align{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-contacts{
+    margin-top:2rem;
+  }
+  .mob-button{
+   margin-bottom: 3rem;
+    display: block;
+  }
+  .footer-contacts{
+    p{
+      text-align: center;
+    }
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section3{
+    background: unset;
+  }
+
+}
